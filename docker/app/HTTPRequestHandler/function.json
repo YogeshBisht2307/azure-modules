@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../azserverless-0.1-all.jar",
+  "entryPoint" : "com.kodeweich.Function.invoke",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "{*route}",
+    "methods" : [ "GET", "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

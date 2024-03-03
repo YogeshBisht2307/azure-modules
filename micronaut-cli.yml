@@ -1,0 +1,6 @@
+applicationType: function
+defaultPackage: com.kodeweich
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [app-name, azure-function, gradle, http-client-test, junit, kotlin, ksp, logback, micronaut-build, properties, readme, serialization-jackson]
